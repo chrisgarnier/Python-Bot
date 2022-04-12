@@ -22,20 +22,7 @@ TRADE_QUANTITY = str(450)
 in_position = True
 buy_order_placed = False
 sell_order_placed = False
-#First create bot that does percent changes over longer period of time, than the rapid decay and rapid growth (model used for quikbots)
-#start with object oriented programming
-#create function for finding a "trading" period, how many ticks before the bots +
-# + random fluctions repeat themselves, start and stop are not well defined until the period is determined
-#create function for the time inbetween periods. When the random fluctions dominate trends
-#create function that analyzes trading periods maybe use deep learning to guess a generic shape -
-# -of the next probable periods
-#create arapid buy/sell order function for after large random fluctations occur
-# create an algo for general short cycle periodic trading have deep learning class- 
-# -instantiate generalized parameters 
-# think of some indicator that measures the momentum of charts similar to rsi except shorter term
-# fix DifInCand function when you can think again
-#remember, you are not a billion dollar hedgefund with infinite man power,-
-# -resources, and experience
+
 
 def order(sym,sides,typ,time,quant,price):
     global trade_id
@@ -252,3 +239,8 @@ def on_message(ws,message):
 
 ws = websocket.WebSocketApp(SOCKET, on_open= on_open, on_close= on_close,on_message = on_message)
 ws.run_forever()
+
+# Redo Formatting for Text File Generated now that you are a Pandas Pro
+# Plan for VB, use ML to determine Buy/Sell Triggers
+# Plan for VC Redo with OOP and while Managing Time/Space Complexities
+#### and update features used in ML,DL problem of Buy/Sell Triggers using graduate Math
