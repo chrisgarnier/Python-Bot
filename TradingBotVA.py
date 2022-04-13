@@ -240,7 +240,7 @@ def on_message(ws,message):
 ws = websocket.WebSocketApp(SOCKET, on_open= on_open, on_close= on_close,on_message = on_message)
 ws.run_forever()
 
-# Redo Formatting for Text File Generated now that you are a Pandas Pro
-# Plan for VB, use ML to determine Buy/Sell Triggers
+# Redo Formatting for Text File Generated now that you are a Pandas Pro ------ In progress upload by 4/28/22 
+# Plan for VB, use ML to determine Buy/Sell Triggers ------ In progress upload by 4/28/22 
 # Plan for VC Redo with OOP and while Managing Time/Space Complexities
-#### and update features used in ML,DL problem of Buy/Sell Triggers using graduate Math
+#### and update features used in ML,DL problem of Buy/Sell Triggers using graduate Math --- In progress no schedule for upload yet
